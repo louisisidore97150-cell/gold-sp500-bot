@@ -8,7 +8,7 @@ import sys
 import os
 
 # ─── AUTO-INSTALLATION ────────────────────────────────────────────────────────
-PACKAGES = ["flask", "yfinance", "pandas", "numpy", "MetaTrader5"]
+PACKAGES = ["flask", "yfinance", "pandas", "numpy"]
 
 print("=" * 50)
 print("  Gold & SP500 Bot — Topstep Edition")
