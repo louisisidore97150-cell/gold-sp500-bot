@@ -49,7 +49,7 @@ from flask import Flask, jsonify, request
 # ─── CONFIG ───────────────────────────────────────────────────────────────────
 CFG = {
     "mt5_login": 0, "mt5_password": "", "mt5_server": "Rithmic-TopstepTrader",
-    "gold_symbol": "GC", "sp500_symbol": "ES",
+    "gold_symbol": "GLD", "sp500_symbol": "SPY",
     "capital": 50000, "risk_pct": 0.5, "max_loss_pct": 2.0,
     "max_trades": 3, "min_rr": 2.0, "adx_min": 25,
     "simulation": True, "auto_trade": True,
